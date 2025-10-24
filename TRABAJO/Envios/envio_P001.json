@@ -1,0 +1,17 @@
+[
+  {
+    "pedido_id": "P001",
+    "tipo": "desde_almacen",
+    "fecha_envio": "2024-09-18",
+    "productos": [
+      {
+        "codigo": "F001",
+        "unidades": 100
+      },
+      {
+        "codigo": "F002",
+        "unidades": 50
+      }
+    ]
+  }
+]
