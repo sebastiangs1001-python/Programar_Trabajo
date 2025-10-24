@@ -1,0 +1,138 @@
+[
+    {
+        "pedido_id": "P006",
+        "fecha": "2024-09-28",
+        "cliente": {
+            "cliente_id": "C006",
+            "nombre": "Clínica Buenavista",
+            "tipo": "clínica"
+        },
+        "productos": [
+            {
+                "codigo": "F008",
+                "nombre": "Amoxicilina 875mg",
+                "categoria": "antibiótico",
+                "unidades": 100,
+                "precio_unitario": 0.32,
+                "caducidad": "2025-09-01"
+            },
+            {
+                "codigo": "F009",
+                "nombre": "Claritromicina 500mg",
+                "categoria": "antibiótico",
+                "unidades": 60,
+                "precio_unitario": 0.45,
+                "caducidad": "2025-07-15"
+            }
+        ],
+        "estado": "procesado"
+    },
+    {
+        "pedido_id": "P007",
+        "fecha": "2024-10-01",
+        "cliente": {
+            "cliente_id": "C007",
+            "nombre": "Farmacia del Parque",
+            "tipo": "farmacia"
+        },
+        "productos": [
+            {
+                "codigo": "F010",
+                "nombre": "Cetirizina 10mg",
+                "categoria": "antihistamínico",
+                "unidades": 80,
+                "precio_unitario": 0.18,
+                "caducidad": "2025-06-01"
+            },
+            {
+                "codigo": "F011",
+                "nombre": "Aspirina 100mg",
+                "categoria": "analgésico",
+                "unidades": 150,
+                "precio_unitario": 0.12,
+                "caducidad": "2026-01-01"
+            }
+        ]
+    },
+    {
+        "pedido_id": "P008",
+        "fecha": "2024-10-03",
+        "cliente": {
+            "cliente_id": "C008",
+            "nombre": "Hospital Universitario Norte",
+            "tipo": "hospital"
+        },
+        "productos": [
+            {
+                "codigo": "F012",
+                "nombre": "Metronidazol 500mg",
+                "categoria": "antibacteriano",
+                "unidades": 70,
+                "precio_unitario": 0.27,
+                "caducidad": "2025-08-30"
+            },
+            {
+                "codigo": "F013",
+                "nombre": "Furosemida 40mg",
+                "categoria": "diurético",
+                "unidades": 90,
+                "precio_unitario": 0.19,
+                "caducidad": "2025-11-15"
+            }
+        ]
+    },
+    {
+        "pedido_id": "P009",
+        "fecha": "2024-10-05",
+        "cliente": {
+            "cliente_id": "C009",
+            "nombre": "Farmacia San Pablo",
+            "tipo": "farmacia"
+        },
+        "productos": [
+            {
+                "codigo": "F014",
+                "nombre": "Lisinopril 10mg",
+                "categoria": "cardiovascular",
+                "unidades": 110,
+                "precio_unitario": 0.29,
+                "caducidad": "2025-12-31"
+            },
+            {
+                "codigo": "F015",
+                "nombre": "Metoprolol 50mg",
+                "categoria": "cardiovascular",
+                "unidades": 70,
+                "precio_unitario": 0.33,
+                "caducidad": "2025-10-10"
+            }
+        ]
+    },
+    {
+        "pedido_id": "P010",
+        "fecha": "2024-10-08",
+        "cliente": {
+            "cliente_id": "C010",
+            "nombre": "Clínica Santa María",
+            "tipo": "clínica"
+        },
+        "productos": [
+            {
+                "codigo": "F016",
+                "nombre": "Pantoprazol 40mg",
+                "categoria": "gastrointestinal",
+                "unidades": 100,
+                "precio_unitario": 0.26,
+                "caducidad": "2026-03-15"
+            },
+            {
+                "codigo": "F017",
+                "nombre": "Diazepam 5mg",
+                "categoria": "ansiolítico",
+                "unidades": 40,
+                "precio_unitario": 0.4,
+                "caducidad": "2025-09-09"
+            }
+        ]
+    }
+]
